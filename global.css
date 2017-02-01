@@ -42,7 +42,7 @@ a:active {
     text-decoration: underline;
 }
 #container {
-    background: #000 url(https://715.wf/data/misc/theme_images/header_bg.jpg) top center repeat-x;
+    background: #000 url(https://neus2benen.github.io/HF-Old-School-Theme/theme_images/header_bg.jpg) top center repeat-x;
     text-align: left;
     color: #cccccc;
     width: 100%;
@@ -53,7 +53,7 @@ a:active {
     margin: auto auto;
 }
 .menu ul {
-    background: #000 url(https://715.wf/data/misc/theme_images/toplinks_bg.png);
+    background: #000 url(https://neus2benen.github.io/HF-Old-School-Theme/theme_images/toplinks_bg.png);
     color: #00ff00;
     height: 50px;
     font-weight: bold;
@@ -93,7 +93,7 @@ table {
     border: 1px solid #333333;
 }
 .thead {
-    background: #955A85 url(https://715.wf/data/misc/theme_images/thead_bg.gif) top left repeat-x;
+    background: #955A85 url(https://neus2benen.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
     color: #cccccc;
 }
 .thead a:link {
@@ -107,7 +107,7 @@ table {
     text-decoration: underline;
 }
 .tcat {
-    background: #ffffff url(https://715.wf/data/misc/theme_images/topnavback.gif) repeat-x;
+    background: #ffffff url(https://neus2benen.github.io/HF-Old-School-Theme/theme_images/topnavback.gif) repeat-x;
     color: #4F3A6B;
     line-height: 1.6em;
     font-size: 12px;
@@ -139,7 +139,7 @@ table {
     font-weight: bold;
 }
 .tfoot {
-    background: #955A85 url(https://715.wf/data/misc/theme_images/thead_bg.gif) top left repeat-x;
+    background: #955A85 url(https://neus2benen.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
     color: #cccccc;
 }
 .tfoot a:link {
@@ -844,7 +844,7 @@ thead~tbody tr:first-child td:last-child,
     top: 1px;
 }
 .shadetabs li a.selected {
-    background: #ADCBE7 url(https://715.wf/data/misc/theme_images/topnavback.gif);
+    background: #ADCBE7 url(https://neus2benen.github.io/HF-Old-School-Theme/theme_images/topnavback.gif);
     color: #4F3A6B;
     border-bottom-color: #81A2C4;
     text-shadow: 1px 1px 0px #777777;
