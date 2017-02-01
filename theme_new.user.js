@@ -2,7 +2,7 @@
 // @name       Old School HF Theme - Rebooted
 // @namespace  Github
 // @version    1.5
-    // @downloadURL https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_new.user.js
+// @downloadURL https://data.715.wf/misc/theme_new.user.js
 // @description  This script will remove the modern theme and instead add the old theme. Rebooted by uid=2219785
 // @match       *://*.hackforums.net/*
 // @grant none
@@ -11,7 +11,7 @@
 var hideMultiQuotes = true;
 
 //removejscssfile('global.css', 'css');
-addStyleSheet('@import "https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/global_new.css";\n@import "https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/star_rating.css";');
+addStyleSheet('@import "https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/global_new.css";\n@import "https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/star_rating.css";');
 
 
 function addStyleSheet(style) {
@@ -57,25 +57,25 @@ if (hideMultiQuotes === true) {
 
 var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; ++i) {
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starreg.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/star.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starl33t.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/star.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/staradmin.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/star.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starstaff.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/staff_star1.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/logo_bl.gif', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/logo.jpg');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_pl/logo_pl.gif', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/logo.jpg');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/ub3r.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/ub3r.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/ub3r.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/ub3r.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/3p1c.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/3p1c.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/admin-bar.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/admin.jpg');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/staff.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/staff.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/staff.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/staff.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/writers2.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/Writers.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/mentor.jpg', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/mentor.jpg');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/mentor.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/mentor.jpg');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/l33t.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/hf_l33t.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/l33t.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/hf_l33t.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starub3r2.png', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/ub3rstar.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/minion.gif', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/minion.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.gif', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/buddy_offline.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.gif', 'https://raw.githubusercontent.com/Neus2Benen/HF-Old-School-Theme/master/theme_images/buddy_online.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starreg.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/star.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starl33t.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/star.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/staradmin.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/star.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starstaff.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/staff_star1.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/logo_bl.gif', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/logo.jpg');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_pl/logo_pl.gif', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/logo.jpg');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/ub3r.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/ub3r.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/ub3r.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/ub3r.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/3p1c.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/3p1c.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/admin-bar.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/admin.jpg');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/staff.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/staff.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/staff.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/staff.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/writers2.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/Writers.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/mentor.jpg', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/mentor.jpg');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/mentor.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/mentor.jpg');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/groupimages/english/l33t.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/hf_l33t.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/groupimages/english/l33t.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/hf_l33t.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starub3r2.png', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/ub3rstar.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/minion.gif', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/minion.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.gif', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/buddy_offline.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.gif', 'https://neus2benen.github.io/HF-Old-School-Theme/HF-Old-School-Theme/master/theme_images/buddy_online.gif');
 }
