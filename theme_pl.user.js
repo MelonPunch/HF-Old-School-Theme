@@ -39,3 +39,9 @@ links.style.display = 'none';
 
 var panel = document.getElementById('panel');
 panel.innerHTML = panel.innerHTML + ('<br>' + linksSrc);
+
+
+var images = document.getElementsByTagName('img');
+for (var i = 0; i < images.length; ++i) {
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/minion.gif', 'https://raw.githubusercontent.com/notcammy/HF-Old-School-Theme/master/minion.gif');
+}
