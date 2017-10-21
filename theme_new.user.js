@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name       Old School HF Theme - Rebooted
+// @name       HF Old School Theme - Rebooted
 // @namespace  Github
-// @version    1.5
+// @version    1.6
 // @downloadURL https://notcammy.github.io/HF-Old-School-Theme/theme_new.user.js
 // @description  This script will remove the modern theme and instead add the old theme. Rebooted by uid=2219785
 // @match       *://*.hackforums.net/*
