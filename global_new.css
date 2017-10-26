@@ -19,7 +19,7 @@ body {
     border-top: 1px solid #4f3a6b;
 }
 
-div[class^="postbit_"] {
+a[class^="postbit_"] {
     display: inline-block;
     background: #7b3c65;
     border-top: 1px solid rgba(255,255,255,.1);
