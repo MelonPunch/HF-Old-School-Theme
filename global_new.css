@@ -11,6 +11,38 @@ body {
     font-style: normal;
 }
 
+.post_controls {
+    clear: both;
+    background: #333;
+    padding: 10px;
+    overflow: hidden;
+    border-top: 1px solid #4f3a6b;
+}
+
+div[class^="postbit_"] {
+    display: inline-block;
+    background: #7b3c65;
+    border-top: 1px solid rgba(255,255,255,.1);
+    margin: 5px 0;
+    color: #efefef!important;
+    background-color: #531F3E!important;
+    border: 1px solid #370c23!important;
+    box-shadow: 0 1px 0 0 #b087ab inset!important;
+    border-radius: 0px 6px 0px 6px!important;
+    background-image: -ms-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
+    background-image: -moz-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
+    background-image: -o-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #825E7E), color-stop(1, #460D2C))!important;
+    background-image: -webkit-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
+    padding: 3px 6px!important;
+    text-shadow: 1px 1px 0px #000!important;
+    text-decoration: none!important;
+    font-family: arial!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    line-height: 1.4;
+}
+
 .star_rating {
     position: relative;
     width: 80px!important;
