@@ -19,7 +19,7 @@ body {
     border-top: 1px solid #4f3a6b;
 }
 
-a[class^="postbit_"] {
+.postbit_buttons > a:link, .postbit_buttons > a:hover, .postbit_buttons > a:visited, .postbit_buttons > a:active {
     display: inline-block;
     background: #7b3c65;
     border-top: 1px solid rgba(255,255,255,.1);
