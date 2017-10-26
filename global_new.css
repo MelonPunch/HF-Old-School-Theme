@@ -98,8 +98,9 @@ table {
     border: 1px solid #333333;
 }
 .thead {
-    background: #955A85 url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
+    background: #835e7e url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
     color: #cccccc;
+    padding: 5px!important;
 }
 .thead a:link {
     text-decoration: none;
@@ -114,7 +115,7 @@ table {
 .tcat {
     background: #ffffff url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/topnavback.gif) repeat-x;
     color: #4F3A6B;
-    line-height: 1.6em;
+    line-height: 1.5em;
     font-size: 12px;
 }
 .tcat a:link {
