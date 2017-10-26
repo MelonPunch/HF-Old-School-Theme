@@ -12,7 +12,7 @@ body {
 }
 
 #posts_container {
-    background: black;
+    background: black!important;
 }
 
 .post_controls {
@@ -131,7 +131,7 @@ table {
     background: #4F3A6B;
     width: 100%;
     margin: auto auto;
-    border: 1px solid #333333;
+    border: 0px!important;
 }
 .thead {
     background: #835e7e url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
