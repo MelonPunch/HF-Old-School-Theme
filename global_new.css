@@ -11,6 +11,10 @@ body {
     font-style: normal;
 }
 
+#posts_container {
+    background: black;
+}
+
 .post_controls {
     clear: both;
     background: #333;
