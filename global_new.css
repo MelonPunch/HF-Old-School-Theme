@@ -15,6 +15,14 @@ body {
     color: #4F3A6B;
 }
 
+.post .post_head {
+    background: #ffffff url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/topnavback.gif) repeat-x;
+    color: #4F3A6B;
+    line-height: 1.4!important;
+    font-size: 12px;
+    padding: 5px!important;
+}
+
 .post .post_head a {
     color: #000;
 }
