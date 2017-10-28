@@ -11,6 +11,10 @@ body {
     font-style: normal;
 }
 
+.post .post_author div.author_statistics {
+    color: #ccc;
+}
+
 #header {
     margin: 0 auto;
     padding: 15px;
