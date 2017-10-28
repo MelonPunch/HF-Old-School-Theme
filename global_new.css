@@ -15,6 +15,11 @@ body {
     float: none;
 }
 
+.post .post_head span.edited_post {
+    font-size: 10px;
+    color: #4F3A6B;
+}
+
 #panel .lower a:link, #panel .lower a:visited, #panel .lower a:hover, #panel .lower a:active {
     color: #fff;
 }
