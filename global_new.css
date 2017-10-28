@@ -11,6 +11,14 @@ body {
     font-style: normal;
 }
 
+.post .post_head span.post_date {
+    color: #4F3A6B;
+}
+
+.post .post_head a {
+    color: #000;
+}
+
 .post {
     overflow: hidden;
     background: #333;
