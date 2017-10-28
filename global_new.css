@@ -117,7 +117,7 @@ a:active {
     background: #000 url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/header_bg.jpg) top center repeat-x;
     text-align: left;
     color: #cccccc;
-    width: calc(100% - 35px);
+    width: 100%;
 }
 #content {
     color: #cccccc;
