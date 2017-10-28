@@ -11,6 +11,32 @@ body {
     font-style: normal;
 }
 
+#panel .lower ul.user_links {
+    float: none;
+}
+
+#panel .lower a:link, #panel .lower a:visited, #panel .lower a:hover, #panel .lower a:active {
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+    display: none;
+}
+
+#panel .upper {
+    color: #ccc;
+    background: #333;
+    padding: 0;
+    clear: both;
+}
+
+#panel .lower {
+    background: #333;
+    color: #ccc;
+    padding: 0;
+}
+
 .post .post_head span.post_date {
     color: #4F3A6B;
 }
