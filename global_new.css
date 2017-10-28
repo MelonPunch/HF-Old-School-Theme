@@ -21,6 +21,7 @@ body {
     line-height: 1.4!important;
     font-size: 12px;
     padding: 5px!important;
+    border-bottom: 0px;
 }
 
 .post .post_head a {
