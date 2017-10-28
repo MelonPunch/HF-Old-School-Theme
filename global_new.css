@@ -15,6 +15,10 @@ body {
     color: #ccc;
 }
 
+.editor_control_bar {
+    color: black;
+}
+
 #header {
     margin: 0 auto;
     padding: 15px;
