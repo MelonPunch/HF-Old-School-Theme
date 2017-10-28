@@ -11,6 +11,11 @@ body {
     font-style: normal;
 }
 
+#header {
+    margin: 0 auto;
+    padding: 15px;
+}
+
 #panel .lower ul.user_links {
     float: none;
 }
@@ -145,11 +150,12 @@ a:active {
     text-decoration: underline;
 }
 #container {
-    background: #000 url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/header_bg.jpg) top center repeat-x;
+    background: #000;
     text-align: left;
     color: #cccccc;
     width: 100%;
 }
+
 #content {
     color: #cccccc;
     width: 95%!important;
