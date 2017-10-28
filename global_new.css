@@ -19,7 +19,7 @@ body {
     color: #fff;
 }
 
-.clear {
+.panel .clear {
     clear: both;
     display: none;
 }
