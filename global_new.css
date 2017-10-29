@@ -11,6 +11,10 @@ body {
     font-style: normal;
 }
 
+#header ul.menu li {
+    margin: 0px;
+}
+
 .post .post_author div.author_statistics {
     color: #ccc;
 }
