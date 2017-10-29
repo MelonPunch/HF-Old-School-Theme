@@ -14,6 +14,9 @@ body {
 #header ul.menu li {
     margin: 0px;
 }
+.menu li {
+    padding-right: 5px;
+}
 
 .post .post_author div.author_statistics {
     color: #ccc;
