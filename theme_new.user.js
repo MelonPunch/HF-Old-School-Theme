@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       HF Old School Theme - Rebooted
 // @namespace  Github
-// @version    1.7
+// @version    1.8
 // @downloadURL https://notcammy.github.io/HF-Old-School-Theme/theme_new.user.js
 // @description  This script will remove the modern theme and instead add the old theme. Rebooted by uid=2219785
 // @match       *://*.hackforums.net/*
@@ -36,6 +36,18 @@ $(".post").each(function() {
     var html = '<div class="post_head">' + $(post_head).html() + '</div>';
     $(post_head).hide();
     $(this).prepend(html);
+
+    var awards = $(this).find("div[style^='width']").eq(0);
+    $(awards).hide();
+    $(this).find(".author_statistics").eq(0).append('<br><div style="width:165px; float:right;">' + $(awards).html() + '</div>');
 });
 
 $("#panel").find(".clear").eq(0).hide();
+
+
+var images = document.getElementsByTagName('img');
+for (var i = 0; i < images.length; ++i) {
+        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_offline.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_online.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_away.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_away.gif');
+}
