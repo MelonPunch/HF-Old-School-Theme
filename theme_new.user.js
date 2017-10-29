@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       HF Old School Theme - Rebooted
 // @namespace  Github
-// @version    1.8
+// @version    1.9
 // @downloadURL https://notcammy.github.io/HF-Old-School-Theme/theme_new.user.js
 // @description  This script will remove the modern theme and instead add the old theme. Rebooted by uid=2219785
 // @match       *://*.hackforums.net/*
@@ -44,10 +44,26 @@ $(".post").each(function() {
 
 $("#panel").find(".clear").eq(0).hide();
 
+$("span.welcome").each(function() {
+    var logout_url = $(".logout").eq(0).attr("href");
+    $(this).append('<span> (<a href="https://hackforums.net/usercp.php">User CP</a> – <a href="' + logout_url + '">Log Out</a>)</span>');
+});
+
+$("div.lower").each(function() {
+    var new_posts = $(this).find("ul").eq(1).find("li").eq(2);
+    $(new_posts).remove();
+    $(this).find("ul").eq(1).prepend('<li>' + $(new_posts).html() + '</i>');
+    $(this).find("ul").eq(1).find("li").each(function (index) {
+        if ($(this).find("ul").eq(1).find("li").length != index){
+            $(this).before("- ");
+        }
+    });
+});
+
 
 var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; ++i) {
-        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_offline.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_online.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_away.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_away.gif');
+    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_offline.gif');
+    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_online.gif');
+    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_away.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_away.gif');
 }
