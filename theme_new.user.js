@@ -2,8 +2,8 @@
 // @name       HF Old School Theme - Rebooted
 // @namespace  Github
 // @version    1.9
-// @downloadURL https://notcammy.github.io/HF-Old-School-Theme/theme_new.user.js
-// @description  This script will remove the modern theme and instead add the old theme. Rebooted by uid=2219785
+// @downloadURL https://github.com/MelonPunch/HF-Old-School-Theme/raw/master/theme_new.user.js
+// @description  This script will remove the modern theme and instead add the old theme. Rebooted by uid=2219785 and 659024
 // @match       *://*.hackforums.net/*
 // @grant none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
@@ -11,7 +11,7 @@
 //
 
 //removejscssfile('global.css', 'css');
-addStyleSheet('@import "https://notcammy.github.io/HF-Old-School-Theme/global_new.css";\n@import "https://notcammy.github.io/HF-Old-School-Theme/star_rating.css";');
+addStyleSheet('@import "https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/global_new.css";\n@import "https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/star_rating.css";\n@import "https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/tabbed.css";');
 this.$ = this.jQuery = jQuery.noConflict(true);
 
 function addStyleSheet(style) {
@@ -63,7 +63,7 @@ $("div.lower").each(function() {
 
 var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; ++i) {
-    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_offline.gif');
-    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_online.gif');
-    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_away.png', 'https://notcammy.github.io/HF-Old-School-Theme/theme_images/buddy_away.gif');
+    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_offline.png', 'https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/theme_images/buddy_offline.gif');
+    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_online.png', 'https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/theme_images/buddy_online.gif');
+    images[i].src = images[i].src.replace('https://hackforums.net/images/blackreign/buddy_away.png', 'https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/theme_images/buddy_away.gif');
 }
