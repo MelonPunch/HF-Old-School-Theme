@@ -1,1011 +1,959 @@
-html {
-    background: #000000;
-}
 body {
-    background: #000000;
-    color: #ccc;
-    text-align: center;
-    line-height: 1.4;
-    font-family: Verdana, Arial, Sans-Serif;
-    font-size: 13px;
-    font-style: normal;
+	background: #072948 url(https://www.hackforums.net/images/modern_bl/mosaic_bl.png) fixed;
+	color: #ccc;
+	text-align: center;
+	line-height: 1.4;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 14px;
+	font-style: normal;
 }
 
-#header ul.menu li {
-    margin: 0px;
-}
-.menu li {
-    padding-right: 5px;
-}
-
-.post .post_author div.author_statistics {
-    color: #ccc;
-}
-
-.editor_control_bar {
-    color: black;
-}
-
-#header {
-    margin: 0 auto;
-    padding: 15px;
-}
-
-#panel .lower ul.user_links {
-    float: none;
-}
-
-.post .post_head span.edited_post {
-    font-size: 10px;
-    color: #4F3A6B;
-}
-
-#panel .lower a:link, #panel .lower a:visited, #panel .lower a:hover, #panel .lower a:active {
-    color: #fff;
-}
-
-.panel .clear {
-    clear: both;
-    display: none;
-}
-
-#panel .upper {
-    color: #ccc;
-    background: #333;
-    padding: 0;
-    clear: both;
-}
-
-#panel .lower {
-    background: #333;
-    color: #ccc;
-    padding: 0;
-}
-
-.post .post_head span.post_date {
-    color: #4F3A6B;
-}
-
-.post .post_head {
-    background: #ffffff url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/topnavback.gif) repeat-x;
-    color: #4F3A6B;
-    line-height: 1.4!important;
-    font-size: 12px;
-    padding: 5px!important;
-    border-bottom: 0px;
-}
-
-.post .post_head a {
-    color: #000;
-}
-
-.post {
-    overflow: hidden;
-    background: #333;
-    margin-bottom: 10px;
-    border-radius: 0px 0px 5px 8px!important;
-    border: 1px solid #4f3a6b!important;
-}
-
-.post_content .signature {
-    margin-top: 5px;
-    border-top: 1px solid black!important;
-    padding: 10px 0 4px 0;
-}
-
-#posts_container {
-    background: black!important;
-}
-
-.post_controls {
-    clear: both;
-    background: #333;
-    padding: 0px 3px 0px 3px!important;
-    overflow: hidden;
-    border-top: 1px solid #4f3a6b;
-}
-
-.postbit_buttons > a:link, .postbit_buttons > a:hover, .postbit_buttons > a:visited, .postbit_buttons > a:active {
-    display: inline-block;
-    background: #7b3c65;
-    border-top: 1px solid rgba(255,255,255,.1);
-    margin: 5px 0;
-    color: #efefef!important;
-    background-color: #531F3E!important;
-    border: 1px solid #370c23!important;
-    box-shadow: 0 1px 0 0 #b087ab inset!important;
-    border-radius: 0px 6px 0px 6px!important;
-    background-image: -ms-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -moz-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -o-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #825E7E), color-stop(1, #460D2C))!important;
-    background-image: -webkit-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    padding: 3px 6px!important;
-    text-shadow: 1px 1px 0px #000!important;
-    text-decoration: none!important;
-    font-family: arial!important;
-    font-size: 14px!important;
-    font-weight: bold!important;
-    line-height: 1.4;
-}
-
-.star_rating {
-    position: relative;
-    width: 80px!important;
-    height: 15px!important;
-    overflow: hidden;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-position: left top;
-}
-
-a.navButton:hover {
-    background: transparent;
-    border: none;
-}
-
-.userstars {
-    background: #333333 left no-repeat;
-    display: block;
-    width: 122px;
-    height: 14px;
-}
 a:link {
-    color: #FFF;
-    text-decoration: none;
+	color: #FFF;
+	text-decoration: none;
 }
+
 a:visited {
-    color: #FFF;
-    text-decoration: none;
+	color: #FFF;
+	text-decoration: none;
 }
-a:hover,
-a:active {
-    color: #cccccc;
-    text-decoration: underline;
+
+a:hover, a:active {
+	color: #499FED;
+	text-decoration: none;
 }
+
 #container {
-    background: #000;
-    text-align: left;
-    color: #cccccc;
-    width: 100%;
+	width: 95%;
+	color: #cccccc;
+	border: 0px solid #072948;
+	margin: auto auto;
+	padding: 0 10px;
+	text-align: left;
 }
 
 #content {
-    color: #cccccc;
-    width: 95%!important;
-    margin: auto auto;
+	color: #cccccc;
+	width: auto !important;
 }
+
 .menu ul {
-    background: #000 url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/toplinks_bg.png);
-    color: #00ff00;
-    height: 50px;
-    font-weight: bold;
-    text-align: center;
-    padding: 0;
+	background: #072948;
+	color: #499FED;
+     -moz-border-radius:5px 5px 0 0;
+     border-radius:5px 5px 0 0;
+              height: 20px;
+	font-weight: bold;
+              padding: 0;
+	text-align: center;
 }
+
 .menu ul a:link {
-    color: #CCCCCC;
-    text-decoration: none;
+	color: #CCCCCC;
+	text-decoration: none;
 }
+
 .menu ul a:visited {
-    color: #cccccc;
-    text-decoration: none;
+	color: #cccccc;
+	text-decoration: none;
 }
-.menu ul a:hover,
-.menu ul a:active {
-    color: #00ff00;
-    text-decoration: none;
+
+.menu ul a:hover, .menu ul a:active {
+	color: #499FED;
+	text-decoration: none;
 }
+
 #panel {
-    background: #333333;
-    color: #cccccc;
-    font-size: 11px;
-    border: 1px solid #4F3A6B;
-    padding: 6px;
-    text-align: center;
+	background: #333333;
+	color: #cccccc;
+	font-size: 13px;
+	border: 1px solid #072948;
+	padding: 6px;
+     -moz-border-radius: 0 05px 5px;
+     border-radius: 0 0 5px 5px;
 }
+
 table {
-    color: #cccccc;
-    font-family: Verdana, Arial, Sans-Serif;
-    font-size: 13px;
+	color: #cccccc;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 14px;
 }
+
 .tborder {
-    background: #4F3A6B;
-    width: 100%;
-    margin: auto auto;
-    border: 0px!important;
+	background: #072948;
+	width: 100%;
+	margin: auto auto;
+	border: 1px solid #333333;
 }
+
 .thead {
-    background: #835e7e url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
-    color: #cccccc;
-    padding: 5px!important;
+	background: #072948;
+	color: #cccccc;
 }
+
 .thead a:link {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 .thead a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
-.thead a:hover,
-.thead a:active {
-    text-decoration: underline;
+
+.thead a:hover, .thead a:active {
+	text-decoration: none;
 }
+
 .tcat {
-    background: #ffffff url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/topnavback.gif) repeat-x;
-    color: #4F3A6B;
-    line-height: 1.4!important;
-    font-size: 12px;
-    padding: 5px!important;
+	background: #393939;
+	color: #ccc;
+	line-height: 1.2em;
+	font-size: 12px;
 }
+
 .tcat a:link {
-    color: #000000;
+	color: #efefef;
 }
+
 .tcat a:visited {
-    color: #000000;
+	color: #efefef;
 }
-.tcat a:hover,
-.tcat a:active {
-    color: #000000;
+
+.tcat a:hover, .tcat a:active {
+	color: #499FED;
 }
+
+
 .trow1 {
-    background: #333333;
+	background: #333333;
 }
+
 .trow2 {
-    background: #333333;
+	background: #333333;
 }
+
 .trow_shaded {
-    background: #999999;
-    color: #000000;
+	background: #999999;
+            color: #000000;
 }
+
 .trow_sep {
-    background: #000000;
-    color: #cccccc;
-    font-size: 12px;
-    font-weight: bold;
+	background: #000000;
+	color: #cccccc;
+	font-size: 12px;
+	font-weight: bold;
 }
+
 .tfoot {
-    background: #955A85 url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/thead_bg.gif) top left repeat-x;
-    color: #cccccc;
+	background: #072948;
+	color: #cccccc;
 }
+
 .tfoot a:link {
-    color: #ffffff;
-    text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
+
 .tfoot a:visited {
-    color: #ffffff;
-    text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
-.tfoot a:hover,
-.tfoot a:active {
-    color: #ffffff;
-    text-decoration: underline;
+
+.tfoot a:hover, .tfoot a:active {
+	color: #499FED;
+	text-decoration: none;
 }
+
 .bottommenu {
-    background: #333333;
-    color: #cccccc;
-    border: 1px solid #4F3A6B;
-    padding: 4px;
+	background: #333333;
+	color: #cccccc;
+	border: 1px solid #072948;
+	padding: 4px;
+	text-align: center;
 }
+
 .navigation {
-    color: #444444;
-    font-size: 13px;
-    font-weight: bold;
+	color: #ccc;
+	font-size: 13px;
+	font-weight: bold;
 }
+
 .navigation a:link {
-    color: #444444;
-    text-decoration: none;
+	color: #ccc;
+	text-decoration: none;
 }
+
 .navigation a:visited {
-    color: #444444;
-    text-decoration: none;
+	color: #ccc;
+	text-decoration: none;
 }
-.navigation a:hover,
-.navigation a:active {
-    color: #cccccc;
-    text-decoration: none;
+
+.navigation a:hover, .navigation a:active {
+	color: #499FED;
+	text-decoration: none;
 }
+
 .navigation .active {
-    color: #cccccc;
-    font-size: 13px;
-    font-weight: bold;
+	color: #efefef;
+	font-size: 14px;
+	font-weight: bold;
 }
+
 .smalltext {
-    font-size: 11px;
+	font-size: 12px;
 }
+
 .largetext {
-    font-size: 16px;
-    font-weight: bold;
+	font-size: 16px;
+	font-weight: bold;
 }
+
 input.textbox {
-    background: #cccccc;
-    color: #000000;
-    border: 1px solid #0f5c8e;
-    padding: 1px;
+	background: #cccccc;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 1px;
 }
+
 textarea {
-    background: #cccccc;
-    color: #000000;
-    border: 1px solid #0f5c8e;
-    padding: 2px;
-    font-family: Verdana, Arial, Sans-Serif;
-    line-height: 1.4;
-    font-size: 13px;
+	background: #cccccc;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 2px;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 1.4;
+	font-size: 14px;
 }
+
 select {
-    background: #cccccc;
-    border: 1px solid #4F3A6B;
+	background: #cccccc;
+	border: 1px solid #072948;
 }
+
 .editor {
-    background: #f1f1f1;
-    border: 1px solid #ccc;
+	background: #f1f1f1;
+	border: 1px solid #ccc;
 }
+
 .editor_control_bar {
-    background: #cccccc;
-    border: 1px solid #4F3A6B;
+	background: #cccccc;
+	border: 1px solid #072948;
 }
+
 .autocomplete {
-    background: #cccccc;
-    border: 1px solid #000;
-    color: black;
+	background: #cccccc;
+	border: 1px solid #000;
+	color: black;
 }
+
 .autocomplete_selected {
-    background: #adcee7;
-    color: #000;
+	background: #adcee7;
+	color: #000;
 }
+
 .popup_menu {
-    background: #ccc;
-    border: 1px solid #000;
+	background: #0F5799;
+	border: 1px solid #333333;
 }
+
 .popup_menu .popup_item {
-    background: #cccccc;
-    color: #000;
+	background: #0F5799;
+	color: #fff;
 }
+
 .popup_menu .popup_item:hover {
-    background: #cccccc;
-    color: #000;
+	background: #0F5799;
+	color: #fff;
 }
+
 .trow_reputation_positive {
-    background: #333333;
-    color: #cccccc;
+	background: #333333;
 }
+
 .trow_reputation_neutral {
-    background: #333333;
-    color: #cccccc;
+	background: #333333;
+
 }
+
 .trow_reputation_negative {
-    background: #333333;
-    color: #cccccc;
+	background: #333333;
+
 }
 .reputation_positive {
-    color: green;
-    font-weight: bold;
+	color: #32CD32;
 }
+
 .reputation_neutral {
-    color: #444;
-    font-weight: bold;
+	color: #666666;
 }
+
 .reputation_negative {
-    color: red;
-    font-weight: bold;
+	color: #CC3333;
+	font-weight:bold;
 }
+
 img {
-    border: none;
+	border: none;
 }
+
 .clear {
-    clear: both;
+	clear: both;
 }
+
 .hidden {
-    display: none;
-    float: none;
-    width: 1%;
+	display: none;
+	float: none;
+	width: 1%;
 }
+
 .float_left {
-    float: left;
+	float: left;
 }
+
 .float_right {
-    float: right;
+	float: right;
 }
+
 .menu ul {
-    list-style: none;
-    margin: 0;
+	list-style: none;
+	margin: 0;
 }
+
 .menu li {
-    display: inline;
-    padding-left: 5px;
+	display: inline;
+	padding-left: 5px;
 }
+
 .menu img {
-    padding-right: 5px;
-    vertical-align: top;
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+#panel .links {
+	margin: 0;
+	float: right;
 }
 
 .expcolimage {
-    float: right;
-    width: auto;
-    vertical-align: middle;
-    margin-top: 2px;
+	float: right;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 2px;
 }
+
 img.attachment {
-    border: 1px solid #E9E5D7;
-    padding: 2px;
+	border: 1px solid #E9E5D7;
+	padding: 2px;
 }
+
 hr {
-    background-color: #000000;
-    color: #000000;
-    height: 1px;
-    border: 0px;
+	background-color: #000000;
+	color: #000000;
+	height: 1px;
+	border: 0px;
 }
+
 #copyright {
-    font: 11px Verdana, Arial, Sans-Serif;
-    margin: 0;
-    padding: 10px 0 0 0;
+	font: 11px Verdana, Arial, Sans-Serif;
+	margin: 0;
+	padding: 10px 0 0 0;
 }
+
 #debug {
-    float: right;
-    text-align: right;
-    margin-top: 0;
+	float: right;
+	text-align: right;
+	margin-top: 0;
 }
+
 .subforumicon {
-    border: 0;
-    vertical-align: middle;
+	border: 0;
+	vertical-align: middle;
 }
+
 .separator {
-    margin: 5px;
-    padding: 0;
-    height: 0px;
-    font-size: 1px;
-    list-style-type: none;
+	margin: 5px;
+	padding: 0;
+	height: 0px;
+	font-size: 1px;
+	list-style-type: none;
 }
 
-
-.bitButton:hover {
-    color: #888888!important;
+form {
+	margin: 0;
+	padding: 0;
 }
 
-.bitButton {
-    cursor: pointer!important;
-}
 .popup_menu .popup_item_container {
-    margin: 1px;
-    text-align: left;
-}
-.popup_menu .popup_item {
-    display: block;
-    padding: 3px;
-    text-decoration: none;
-    white-space: nowrap;
-}
-.popup_menu a.popup_item:hover {
-    text-decoration: none;
-}
-.autocomplete {
-    text-align: left;
-}
-.logo {
-    text-align: center;
-}
-.trow_selected td {
-    background: #999999;
-    color: #000000;
-}
-blockquote {
-    border: 1px dashed #ccc;
-    color: #ccc;
-    margin: 0;
-    background: #777777;
-    padding: 4px;
-    color: #FFFFFF;
-}
-blockquote cite {
-    font-weight: bold;
-    color: #FFFFFF;
-    border-bottom: 1px dashed #ccc;
-    font-style: normal;
-    display: block;
-    margin: 4px 0;
-}
-blockquote cite span {
-    float: right;
-    font-weight: normal;
-    color: #FFFFFF;
-}
-.codeblock {
-    border: 1px dashed #ccc;
-    color: #ccc;
-    margin: 0;
-    background: #777777;
-    padding: 4px;
-}
-.codeblock .title {
-    border-bottom: 1px solid #ccc;
-    font-weight: bold;
-    margin: 4px 0;
-}
-.codeblock code {
-    overflow: auto;
-    height: auto;
-    max-height: 200px;
-    display: block;
-    font-family: Monaco, Consolas, Courier, monospace;
-    font-size: 13px;
-}
-.subject_new,
-a.subject_new {
-    color: #cccccc;
-    font-weight: bold;
-}
-a.subject_new:hover {
-    color: #ffffff;
-}
-.highlight {
-    background: #FFFFCC;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-.pm_alert {
-    background: #333333;
-    border-top: 1px solid #00FF00;
-    border-bottom: 1px solid #00FF00;
-    text-align: center;
-    padding: 5px 20px;
-    font-size: 11px;
-    margin-bottom: 15px;
-}
-.red_alert {
-    background: #FBE3E4;
-    color: #A5161A;
-    padding: 5px 20px;
-    border: 1px solid #A5161A;
-    text-align: center;
-    font-size: 11px;
-    margin-bottom: 15px;
-}
-.high_warning {
-    color: #CC0000;
-}
-.moderate_warning {
-    color: #F3611B;
-}
-.low_warning {
-    color: #AE5700;
-}
-div.error {
-    padding: 5px 10px;
-    border-top: 2px solid #00ff00;
-    border-bottom: 2px solid #00ff00;
-    background: #777777;
-    color: #00ff00;
-    font-size: 12px;
-}
-div.error p {
-    margin: 0;
-    color: #00ff00;
-    font-weight: normal;
-}
-div.error p em {
-    font-style: normal;
-    font-weight: bold;
-    padding-left: 24px;
-    display: block;
-    color: #00ff00;
-    background: url(https://x.hackforums.net/images/error.gif) no-repeat 0;
-}
-div.error.ul {
-    margin-left: 24px;
-}
-.online {
-    color: #15A018;
-}
-.offline {
-    color: #C7C7C7;
-}
-.pagination {
-    font-size: 11px;
-    padding-top: 10px;
-    margin-bottom: 5px;
-}
-.tfoot .pagination,
-.tcat .pagination {
-    padding-top: 0;
-}
-.pagination .pages {
-    font-weight: bold;
-}
-.pagination .pagination_current,
-.pagination a {
-    padding: 2px 6px;
-    margin-bottom: 3px;
-}
-.pagination a {
-    border: 1px solid #4F3A6B;
-    background-color: #000!important;
-}
-.pagination .pagination_current {
-    background: #cccccc;
-    color: #000;
-    border: 1px solid #4F3A6B;
-    font-weight: bold;
-    color: #000;
-}
-.pagination a:hover {
-    background: #cccccc!important;
-    color: #000;
-    text-decoration: none;
-}
-.thread_legend,
-.thread_legend dd {
-    margin: 0;
-    padding: 0;
-}
-.thread_legend dd {
-    padding-bottom: 4px;
-    margin-right: 15px;
-}
-.thread_legend img {
-    margin-right: 4px;
-    vertical-align: bottom;
-}
-.forum_legend,
-.forum_legend dt,
-.forum_legend dd {
-    margin: 0;
-    padding: 0;
-}
-.forum_legend dd {
-    float: left;
-    margin-right: 10px;
-}
-.forum_legend dt {
-    margin-right: 10px;
-    float: left;
-}
-.success_message {
-    color: #00b200;
-    font-weight: bold;
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-.error_message {
-    color: #C00;
-    font-weight: bold;
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-.post_body {
-    padding: 5px;
-}
-.post_content {
-    padding: 5px 10px;
-}
-.invalid_field {
-    border: 1px solid #f30;
-    color: #f30;
-}
-.valid_field {
-    border: 1px solid #0c0;
-}
-.validation_error {
-    background: url(https://x.hackforums.net/images/blackreign/invalid.gif) no-repeat center left;
-    color: #f30;
-    margin: 5px 0;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 11px;
-    padding-left: 22px;
-}
-.validation_success {
-    background: url(https://x.hackforums.net/images/blackreign/valid.gif) no-repeat center left;
-    color: #00b200;
-    margin: 5px 0;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 11px;
-    padding-left: 22px;
-}
-.validation_loading {
-    background: url(https://x.hackforums.net/images/blackreign/spinner.gif) no-repeat center left;
-    color: #555555;
-    margin: 5px 0;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 11px;
-    padding-left: 22px;
-}
-.quick_jump,
-a.quick_jump {
-    color: #7858A3;
-    text-decoration: none;
-    font-size: 16px;
-    width: 13px;
-    height: 13px;
-    padding-left: 13px;
-    vertical-align: middle;
-    border: none;
-}
-#panel .remember_me input {
-    vertical-align: middle;
-    margin-top: -1px;
-}
-.hiddenrow {
-    display: none;
-}
-.selectall {
-    background-color: #FFFBD9;
-    font-weight: bold;
-    text-align: center;
-}
-.repbox {
-    font-size: 16px;
-    font-weight: bold;
-    padding: 5px 7px 5px 7px;
-}
-._neutral {
-    background-color: #FAFAFA;
-    color: #999999;
-    border: 1px solid #CCCCCC;
-}
-._minus {
-    background-color: #FDD2D1;
-    color: #CB0200;
-    border: 1px solid #980201;
-}
-._plus {
-    background-color: #E8FCDC;
-    color: #008800;
-    border: 1px solid #008800;
-}
-.pagination_breadcrumb {
-    background-color: #f5f5f5;
-    border: 1px solid #fff;
-    outline: 1px solid #ccc;
-    padding: 5px;
-    margin-top: 5px;
-    font-weight: normal;
-}
-.pagination_breadcrumb_link {
-    vertical-align: middle;
-    cursor: pointer;
-}
-.bitButton {
-    color: #efefef!important;
-    background-color: #531F3E!important;
-    border: 1px solid #370c23!important;
-    box-shadow: 0 1px 0 0 #b087ab inset!important;
-    border-radius: 0px 6px 0px 6px!important;
-    background-image: -ms-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -moz-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -o-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #825E7E), color-stop(1, #460D2C))!important;
-    background-image: -webkit-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    padding: 3px 6px!important;
-    text-shadow: 1px 1px 0px #000!important;
-    text-decoration: none!important;
-    font-family: arial!important;
-    font-size: 14px!important;
-    font-weight: bold!important;
+	margin: 1px;
+	text-align: left;
 }
 
-.button{ 
-    color: #efefef!important;
-    background-color: #531F3E!important;
-    border: 1px solid #370c23!important;
-    box-shadow: 0 1px 0 0 #b087ab inset!important;
-    border-radius: 0px 6px 0px 6px!important;
-    background-image: -ms-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -moz-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -o-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #825E7E), color-stop(1, #460D2C))!important;
-    background-image: -webkit-linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    background-image: linear-gradient(top, #825E7E 0%, #460D2C 100%)!important;
-    padding: 3px 6px!important;
-    text-shadow: 1px 1px 0px #000!important;
-    text-decoration: none!important;
-    font-family: arial!important;
-    font-size: 14px!important;
-    font-weight: bold!important;
+.popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.popup_menu a.popup_item:hover {
+	text-decoration: none;
+}
+
+.autocomplete {
+	text-align: left;
+}
+
+.logo {
+	text-align: center;
+              padding-bottom: 5px;
+}
+
+.trow_selected td {
+	background: #999999;
+            color: #000000;
+}
+
+blockquote {
+	border: 1px dashed #ccc;
+            color: #ccc;
+	margin: 0;
+	background: #777777;
+	padding: 4px;
+}
+
+blockquote cite {
+	font-weight: bold;
+	border-bottom: 1px dashed #ccc;
+	font-style: normal;
+	display: block;
+	margin: 4px 0;
+}
+
+blockquote cite span {
+	float: right;
+	font-weight: normal;
+}
+
+.codeblock {
+	border: 1px dashed #ccc;
+            color: #ccc;
+	margin: 0;
+	background: #777777;
+	padding: 4px;
+}
+
+.codeblock .title {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+.codeblock code {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 14px;
+}
+
+.subject_new, a.subject_new {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+a.subject_new:hover {
+	color: #499FED;
+}
+
+.highlight {
+	border: 1px solid #FF00FF;
+	padding: 2px;
+}
+
+.pm_alert {
+	background: #333333;
+	border-top: 1px solid #499FED;
+	border-bottom: 1px solid #499FED;
+	text-align: center;
+	padding: 5px 20px;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.red_alert {
+	background: #FBE3E4;
+	color: #A5161A;
+	padding: 5px 20px;
+	border: 1px solid #A5161A;
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.high_warning {
+	color: #F3611B;
+}
+
+.moderate_warning {
+	color: #CC0000;
+}
+
+.low_warning {
+	color: #FF0000;
+}
+
+div.error {
+	padding: 5px 10px;
+	border-top: 2px solid #00ff00;
+	border-bottom: 2px solid #00ff00;
+	background: #777777;
+            color: #00ff00;
+	font-size: 14px;
+}
+
+div.error p {
+	margin: 0;
+	color: #00ff00;
+	font-weight: normal;
+}
+
+div.error p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+	color: #00ff00;
+	background: url(https://www.hackforums.net/images/error.gif) no-repeat 0;
+}
+
+div.error.ul {
+	margin-left: 24px;
+}
+
+.online {
+	color: #00FF00;
+}
+
+.offline {
+	color: #666666;
+}
+
+.pagination {
+	font-size: 13px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.tfoot .pagination, .tcat .pagination {
+	padding-top: 0;
+}
+
+.pagination .pages {
+	font-weight: bold;
+}
+
+.pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+.pagination a {
+	border: 1px solid #292929;
+               background-color: #072948;
+}
+
+.pagination .pagination_current {
+	background: #0F5799;
+	font-weight: bold;
+}
+
+.pagination a:hover {
+	background: #0F5799;
+	color: #499FED;
+	text-decoration: none;
+}
+
+.thread_legend, .thread_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.thread_legend dd {
+	padding-bottom: 4px;
+	margin-right: 15px;
+}
+
+.thread_legend img {
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+.forum_legend, .forum_legend dt, .forum_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.forum_legend dd {
+	float: left;
+	margin-right: 10px;
+}
+
+.forum_legend dt {
+	margin-right: 10px;
+	float: left;
+}
+
+.success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.error_message {
+	color: #C00;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.post_body {
+	padding: 5px;
+}
+
+.post_content {
+	padding: 5px 10px;
+}
+
+.invalid_field {
+	border: 1px solid #f30;
+	color: #f30;
+}
+
+.valid_field {
+	border: 1px solid #0c0;
+}
+
+.validation_error {
+	background: url(https://www.hackforums.net/images/modern_bl/invalid.gif) no-repeat center left;
+	color: #f30;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 13px;
+	padding-left: 22px;
+}
+
+.validation_success {
+	background: url(https://www.hackforums.net/images/modern_bl/valid.gif) no-repeat center left;
+	color: #00b200;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 13px;
+	padding-left: 22px;
+}
+
+.validation_loading {
+	background: url(https://hackforums.net/images/modern_bl/spinner.gif) no-repeat center left;
+	color: #555555;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 13px;
+	padding-left: 22px;
+}
+
+.quick_jump, a.quick_jump {
+	color: #0F5799;
+	text-decoration: none;
+	font-size: 18px;
+	width: 13px;
+	height: 13px;
+	padding-left: 3px; 
+	vertical-align: middle;
+	border: none;
+}
+
+#panel .remember_me input {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.hiddenrow {
+	display: none;
+}
+
+.selectall {
+	background-color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.repbox {
+	background-color: #393939;
+	font-size:17px;
+	font-weight: bold;
+	padding:5px 7px;
+}
+
+._neutral {
+	color: #666666;
+	border:1px solid #666666;
+}
+
+._minus {
+	color: #FF0000;
+	border:1px solid #FF0000;
+}
+
+._plus {
+	color: #00FF00;
+	border:1px solid #00FF00;
+}
+
+.pagination_breadcrumb {
+	background-color: #f5f5f5;
+	border: 1px solid #fff;
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+}
+
+.pagination_breadcrumb_link {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+
+.author_buttons, .post_management_buttons {
+padding:2px 0;
+}
+
+.prefix {
+	color: #1683E4;
+	font-weight: bold;
+}
+
+.forumdisplay_regular:hover, .forumdisplay_sticky:hover {
+	background-color: #454545;
+}
+
+.group2 {
+	color: #efefef;
+	text-decoration: none;
+}
+
+.group3 {
+	color: #9999FF;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.group4 {
+	color: #FF66FF;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.group6 {
+	color: #AAAAFF;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.group7 {
+	color: #000;
+	text-decoration: none;
+}
+
+.group9 {
+	color: #99FF00;
+	text-decoration: none;
+}
+
+.group29 {
+	color: #00AAFF;
+           text-shadow: 0px 2px #000;
+	text-decoration: none;
+}
+
+.group0 {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.group36 {
+	color: #efefef;
+	font-weight:bold;
+	text-shadow: 0px 2px 3px #000;
+	text-decoration: none;
+}
+
+
+.userstars {
+	background: #333333 url(https://www.hackforums.net/images/modern_bl/star_bg.png) left no-repeat;
+display:block;
+width: 122px;
+height: 14px
+}
+
+.repvote {
+list-style:none;
+margin:0;
+padding:2px;
+}
+
+.repvoteleft {
+float: left;
+width: 180px;
+display:inline;
+}
+
+.repvotemid {
+float: left;
+width: 60%;
+display:inline;
+}
+
+.repvoteright {
+float: right;
+width: 200px;
+text-align:right;
+display:inline;
+}
+
+.button {
+	color: #efefef;
+	background-color: #072948;
+	border: 1px solid #000 !important;
+	box-shadow: 0 1px 0 0 #0F5799 inset !important;
+           -moz-border-radius: 3px;
+           border-radius: 3px;
+	padding: 3px 6px;
+	text-shadow: 1px 1px 0px #000;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.button:hover {
+	color: #499FED;
+	text-decoration:none;
+}
+
+
+.bitButton {
+	color: #efefef;
+	background-color: #072948;
+	border: 1px solid #000 !important;
+	box-shadow: 0 1px 0 0 #0F5799 inset !important;
+	padding: 3px 6px;
+           -moz-border-radius: 3px;
+           border-radius: 3px;
+	text-shadow: 1px 1px 0px #000;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 .bitButton:hover {
-    color: #888888;
-    text-decoration: none;
+	color: #499FED;
+	text-decoration:none;
 }
+
+
+.navButton {
+	color: #efefef;
+	padding: 1px 4px;
+	text-shadow: 1px 1px 0px #000;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navButton:hover {
+	color: #499FED;
+	border-top: 1px solid #499FED;
+              background: #0F5799;
+	text-decoration:none;
+}
+
+/* Use a find and replace to change the amount of border-radius you want to use */
 thead tr:only-child td:first-child,
-tr:first-child td:first-child {
-    -moz-border-radius: 5px 0 0 0;
-    border-radius: 5px 0 0 0;
+ tr:first-child td:first-child {
+     -moz-border-radius:5px 0 0 0;
+     border-radius:5px 0 0 0;
 }
+
 thead tr:only-child td:last-child,
-tr:first-child td:last-child {
-    -moz-border-radius: 0 5px 0 0;
-    border-radius: 0 5px 0 0;
+ tr:first-child td:last-child {
+     -moz-border-radius:0 5px 0 0;
+     border-radius:0 5px 0 0;
 }
+
 tr:last-child td:last-child {
-    -moz-border-radius: 0 0 5px 0;
-    border-radius: 0 0 5px 0;
+     -moz-border-radius:0 0 5px 0;
+     border-radius:0 0 5px 0;
 }
+
 tr:last-child td:first-child {
-    -moz-border-radius: 0 0 0 5px;
-    border-radius: 0 0 0 5px;
+     -moz-border-radius:0 0 0 5px;
+     border-radius:0 0 0 5px;
 }
+
 tr:only-child td:first-child {
-    -moz-border-radius: 5px 0 0 5px;
-    border-radius: 5px 0 0 5px;
+     -moz-border-radius:5px 0 0 5px;
+     border-radius:5px 0 0 5px;
 }
+
 tr:only-child td:last-child {
-    -moz-border-radius: 0 5px 5px 0;
-    border-radius: 0 5px 5px 0;
+     -moz-border-radius:0 5px 5px 0;
+     border-radius:0 5px 5px 0;
 }
+
 .tborder,
-tr:only-child td:only-child {
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+ tr:only-child td:only-child {
+     -moz-border-radius:5px;
+     border-radius:5px;
 }
+
 tr:last-child td:only-child,
-thead~tbody tr:only-child td,
-#posts .tborder[style*="border-top-width"],
-.tborder[style*="border-top-width"],
-.tborder[style*="border-top-width"] tbody tr td.tfoot {
-    -moz-border-radius: 0 0 5px 5px;
-    border-radius: 0 0 5px 5px;
+ thead ~ tbody tr:only-child td,
+ #posts .tborder[style*="border-top-width"],
+ .tborder[style*="border-top-width"],
+ .tborder[style*="border-top-width"] tbody tr td.tfoot {
+     -moz-border-radius:0 0 5px 5px;
+     border-radius:0 0 5px 5px;
 }
+
 tr:first-child td:only-child,
-thead tr:only-child td:only-child,
-.tborder[style*="border-bottom-width"],
-.tborder[style*="border-bottom-width"] tbody tr td,
-#posts .tborder[style*="top: 5"]:last-child {
-    -moz-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
+ thead tr:only-child td:only-child,
+ .tborder[style*="border-bottom-width"],
+ .tborder[style*="border-bottom-width"] tbody tr td,
+ #posts .tborder[style*="top: 5"]:last-child {
+     -moz-border-radius:5px 5px 0 0;
+     border-radius:5px 5px 0 0;
 }
-thead~tbody tr:first-child td:only-child,
-thead~tbody tr:first-child td:first-child,
-thead~tbody tr:first-child td:last-child,
-#posts .tborder[style*="border-top-width"] tbody tr:first-child td:only-child,
-#posts .tborder[style*="top: 5"] tbody tr:last-child td:only-child {
-    -moz-border-radius: 0;
-    border-radius: 0;
+
+thead ~ tbody tr:first-child td:only-child,
+ thead ~ tbody tr:first-child td:first-child,
+ thead ~ tbody tr:first-child td:last-child,
+ #posts .tborder[style*="border-top-width"] tbody tr:first-child td:only-child,
+ #posts .tborder[style*="top: 5"] tbody tr:last-child td:only-child {
+     -moz-border-radius:0;
+     border-radius:0;
 }
-.author_buttons,
-.post_management_buttons {
-    padding: 2px 0;
-}
-.prefix {
-    color: #CC66FF;
-    font-weight: bold;
-}
-.group2 {
-    color: #efefef;
-    text-decoration: none;
-}
-.group3 {
-    color: #99CCFF;
-    font-weight: bold;
-    text-decoration: none;
-}
-.group4 {
-    color: #FF66FF;
-    font-weight: bold;
-    text-decoration: none;
-}
-.group6 {
-    color: #AAAAFF;
-    font-weight: bold;
-    text-decoration: none;
-}
-.group7 {
-    color: #000;
-    text-decoration: none;
-}
-.group9 {
-    color: #FFCC00;
-    text-decoration: none;
-}
-.group29 {
-    color: #0066FF;
-    text-decoration: none;
-}
-.group0 {
-    color: #FFF;
-    text-decoration: none;
-}
-.group36 {
-    color: #efefef;
-    font-weight: bold;
-    text-shadow: 0px 2px 3px #000;
-    text-decoration: none;
-}
-.repvote {
-    list-style: none;
-    margin: 0;
-    padding: 2px;
-}
-.repvoteleft {
-    float: left;
-    width: 180px;
-    display: inline;
-}
-.repvotemid {
-    float: left;
-    width: 55%;
-    display: inline;
-}
-.repvoteright {
-    float: right;
-    width: 250px;
-    text-align: right;
-    display: inline;
-}
-.shadetabs {
-    padding: 1px 0;
-    margin-left: 0px;
-    margin-top: 1px;
-    margin-bottom: 2px;
-    font: bold 12px Verdana;
-    list-style-type: none;
-    text-align: left;
-}
-.shadetabs li {
-    display: inline;
-    margin: 0;
-    padding: 1px;
-}
-.shadetabs li a {
-    background-color: #531F3E;
-    border: 1px solid #370c23!important;
-    box-shadow: 0 1px 0 0 #b087ab inset!important;
-    border-radius: 6px 6px 0px 0px!important;
-    background-image: -ms-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: -moz-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: -o-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #825E7E), color-stop(1, #460D2C));
-    background-image: -webkit-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    color: #efefef;
-    font-family: arial;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 3px 6px;
-    text-decoration: none;
-    text-shadow: 1px 1px 0px #000;
-}
-.shadetabs li a:hover {
-        background-color: #531F3E;
-    border: 1px solid #370c23!important;
-    box-shadow: 0 1px 0 0 #b087ab inset!important;
-    border-radius: 6px 6px 0px 0px!important;
-    background-image: -ms-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: -moz-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: -o-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #825E7E), color-stop(1, #460D2C));
-    background-image: -webkit-linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    background-image: linear-gradient(top, #825E7E 0%, #460D2C 100%);
-    font-family: arial;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 3px 6px;
-    text-decoration: none;
-    text-shadow: 1px 1px 0px #000;
-    color: #888888;
-    text-decoration: none;
-}
-.shadetabs li a.selected {
-    position: relative;
-    top: 1px;
-}
-.shadetabs li a.selected {
-    background: #ADCBE7 url(https://notcammy.github.io/HF-Old-School-Theme/theme_images/topnavback.gif);
-    color: #4F3A6B;
-    border-bottom-color: #81A2C4;
-    text-shadow: 1px 1px 0px #777777;
-}
-.shadetabs li a.selected:hover {
-    text-decoration: none;
-}
-.tabcontent {
-    display: none;
-}
-@ media print {
-    .tabcontent {
-        display: block !important;
-    }
-}
+		
+/*
+     FILE ARCHIVED ON 01:23:50 Jun 17, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:19:21 Oct 31, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
