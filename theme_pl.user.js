@@ -10,7 +10,7 @@
 var hideMultiQuotes = true;
 
 //removejscssfile('global.css', 'css');
-addStyleSheet('@import "https://notcammy.github.io/HF-Old-School-Theme/global_pl.css";');
+addStyleSheet('@import "https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/global_pl.css";');
 
 
 function addStyleSheet(style) {
@@ -43,7 +43,7 @@ panel.innerHTML = panel.innerHTML + ('<br>' + linksSrc);
 
 var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; ++i) {
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/minion.gif', 'https://raw.githubusercontent.com/notcammy/HF-Old-School-Theme/master/minion.gif');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starreg.png', 'https://raw.githubusercontent.com/notcammy/HF-Old-School-Theme/master/starreg.png');
-        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/english/postbit_multiquote.gif', 'https://raw.githubusercontent.com/notcammy/HF-Old-School-Theme/master/postbit_multiquote.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/minion.gif', 'https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/minion.gif');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/starreg.png', 'https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/starreg.png');
+        images[i].src = images[i].src.replace('https://hackforums.net/images/modern_bl/english/postbit_multiquote.gif', 'https://raw.githubusercontent.com/MelonPunch/HF-Old-School-Theme/master/postbit_multiquote.gif');
 }
